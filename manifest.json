@@ -1,6 +1,10 @@
 {
-    "name": "Getting Started Example",
+    "name": "Video Recording",
     "version": "1.0",
-    "description": "Build an Extension!",
+    "description": "You can use this extension for online video recording",
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
     "manifest_version": 2
   }
