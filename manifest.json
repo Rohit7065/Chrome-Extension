@@ -2,6 +2,7 @@
     "name": "Video Recording",
     "version": "1.0",
     "description": "You can use this extension for online video recording",
+    "permissions": ["storage"],
     "background": {
       "scripts": ["background.js"],
       "persistent": false
